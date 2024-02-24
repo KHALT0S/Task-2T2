@@ -28,7 +28,7 @@ class _MainPageState extends StatefulWidget {
 }
 
 class _MainPageStateState extends State<_MainPageState> {
-  final List<Widget> _pages = [Home(), Notifications(), Search(), Profile()];
+  final List<Widget> _pages = [Home(), Search(), Notifications(), Profile()];
   int _selectedIndex = 0;
 
   void _selectPage(int index) {

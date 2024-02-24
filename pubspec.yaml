@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: any
+  like_button: any
 
 dev_dependencies:
   flutter_test:
